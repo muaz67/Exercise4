@@ -11,20 +11,21 @@ This is a simple PHP web application to manage student records using a MySQL dat
 
 ## 🛠 How to Run
 
-1. Start XAMPP (Apache + MySQL)
+1. Start **XAMPP** (Apache + MySQL)
 2. Place this folder inside:
+```
+
 C:\xampp\htdocs\Exercise4
 
-css
-Copy
-Edit
+```
 3. Create a MySQL database:
-webengineering_task
+```
 
-sql
-Copy
-Edit
-4. Create `student` table and insert sample data:
+webengineering\_task
+
+````
+4. Create the `student` table and insert sample data:
+
 ```sql
 CREATE TABLE student (
   Matric VARCHAR(10) PRIMARY KEY,
@@ -43,23 +44,16 @@ INSERT INTO student (Matric, Name, Email) VALUES
 ('13356', 'Ng Ai Bee', 'aibee@hotmail.com'),
 ('14128', 'Vasanthi a/p Kumar', 'vasanthi@gmail.com'),
 ('15980', 'Fadhil Bin Abu', 'fadhil@yahoo.com');
-Open browser and go to:
+````
 
-bash
-Copy
-Edit
-http://localhost/Exercise4/list.php
-📁 Files
-list.php – View and search students
+5. Open your browser and go to:
+   👉 [http://localhost/Exercise4/list.php](http://localhost/Exercise4/list.php)
 
-edit.php – Edit form for student
+## 📁 Files
 
-update.php – Save changes to database
+* `list.php` – View and search students
+* `edit.php` – Edit form for student
+* `update.php` – Save changes to database
+* `/uploads/` – Folder to store images
 
-/uploads/ – Folder to store images
-
-yaml
-Copy
-Edit
-
----
+```

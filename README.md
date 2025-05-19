@@ -55,5 +55,3 @@ INSERT INTO student (Matric, Name, Email) VALUES
 * `edit.php` – Edit form for student
 * `update.php` – Save changes to database
 * `/uploads/` – Folder to store images
-
-```
